@@ -1,12 +1,15 @@
 # Mô hình hóa thuật toán Tháp Hà Nội (Hanoi Towers) bằng D3JS
-
+Author: Đậu Thế Huy
+Email: dauthehuy91@gmail.com
 ## Phân tích bài toán:
+
 
 B1: Nhập vào n là số tầng tháp (Mặc định đặt ở cột 1)
 
 B2: Xây dựng thuật toán chuyển đĩa từ `cột 1` sang `cột 3`
 
 ## Code xử lý chính:
+
 ``` javascript
 	function move(n, a, b, c){
 		if (n > 0) {
